@@ -22,8 +22,6 @@ cp ~/.dir_colors $DIR
 
 # git
 cp ~/.gitconfig $DIR
-
-# gitk
 cp ~/.gitk $DIR
 
 # gtk 2.0
@@ -55,6 +53,6 @@ cp ~/.zshrc.zni $DIR
 
 
 # Commit to git
-git add -A
-git commit -m "Automatic commit"
-git push
+#git add -A
+#git commit -m "Automatic commit"
+#git push
