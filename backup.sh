@@ -50,7 +50,8 @@ cp ~/.zshrc	$DIR
 cp ~/.zshrc.zni $DIR
 
 # /etc/
-
+mkdir -p $DIR/etc
+cp  -r /etc/X11 $DIR/etc
 
 # Commit to git
 #git add -A
