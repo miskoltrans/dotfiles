@@ -37,6 +37,7 @@ cp -r ~/.urxvt $DIR
 
 # VIM
 cp -r ~/.vim $DIR
+cp ~/.vimrc $DIR
 
 # X
 cp ~/.Xauthority	$DIR
