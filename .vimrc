@@ -23,3 +23,30 @@ set nocompatible
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+
+" you complete me
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" nerdtree
+"autocmd vimenter * NERDTree
+map <C-t> :NERDTreeToggle<CR>
+
+" tagbar
+"autocmd vimenter * Tagbar
+nmap <F8> :TagbarToggle<CR>
+
+" custom
+set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
+set number
+set mouse=a
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o " disable autocommenting
