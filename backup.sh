@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 # directory where script is stored, taken from
 # http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in
