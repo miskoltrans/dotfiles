@@ -56,6 +56,10 @@ mkdir -p $DIR/etc
 cp  -r /etc/X11 $DIR/etc
 cp /etc/bash.bashrc $DIR/etc
 
+# dwm
+mkdir -p $DIR/dwm
+cp ~/git/dwm/config.h $DIR/dwm
+
 # Commit to git
 #git add -A
 #git commit -m "Automatic commit"
