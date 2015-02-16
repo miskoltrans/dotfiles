@@ -54,6 +54,7 @@ cp ~/.zshrc.zni $DIR
 # /etc/
 mkdir -p $DIR/etc
 cp  -r /etc/X11 $DIR/etc
+cp /etc/bash.bashrc $DIR/etc
 
 # Commit to git
 #git add -A
