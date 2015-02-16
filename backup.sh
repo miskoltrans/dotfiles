@@ -6,6 +6,8 @@ DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 echo "Using $DIR"
 
+# TODO: Add rm that rms everything so we get a fresh backup everytime
+
 #~/bin contains custom goodies
 cp -r ~/bin $DIR
 
