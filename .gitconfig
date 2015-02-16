@@ -1,0 +1,10 @@
+[user]
+	email = tomislavr@nordeus.com
+	name = Tomislav Rakic
+[color]
+	ui = true
+[core]
+	editor = vim
+	mergetool = kdiff3
+[push]
+	default = simple

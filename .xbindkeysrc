@@ -1,0 +1,20 @@
+"xbacklight -inc 10"
+	XF86MonBrightnessUp
+
+"xbacklight -dec 10"
+	XF86MonBrightnessDown
+
+"amixer set Master 5%+"
+	XF86AudioRaiseVolume
+
+"amixer set Master 5%-"
+	XF86AudioLowerVolume
+
+"/home/thunder/bin/cplay"
+	XF86AudioPlay
+
+"cmus-remote -n"
+	XF86AudioNext
+
+"cmus-remote -r"
+	XF86AudioPrev

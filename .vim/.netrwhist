@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/etc/X11'
+let g:netrw_dirhist_2='/etc/X11/xinit'
+let g:netrw_dirhist_3='/etc/X11/xinit/xinitrc.d'
+let g:netrw_dirhist_4='/home/thunder/git/thwmstatus'
+let g:netrw_dirhist_5='/home/thunder/.vim'
+let g:netrw_dirhist_6='/home/thunder'
+let g:netrw_dirhist_7='/home'
+let g:netrw_dirhist_8='/home/thunder/.vim'
