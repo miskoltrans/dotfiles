@@ -51,7 +51,7 @@ cp ~/.xscreensaver 	$DIR
 cp ~/.zprofile 	$DIR
 cp ~/.zshrc	$DIR
 cp ~/.zshrc.zni $DIR
-cp -r ~/.oh-my-zsh $DIR
+# cp -r ~/.oh-my-zsh $DIR
 
 # /etc/
 mkdir -p $DIR/etc
