@@ -35,6 +35,9 @@ cp ~/.gtkrc-2.0 $DIR
 # urxvt
 cp -r ~/.urxvt $DIR
 
+# tmux
+cp ~/.tmux.conf $DIR
+
 # VIM
 cp -r ~/.vim $DIR
 cp ~/.vimrc $DIR
