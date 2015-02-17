@@ -19,7 +19,7 @@ colorscheme solarized
 
 set nocompatible 
 
-" pathogen
+"adsf pathogen
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
@@ -39,14 +39,26 @@ let g:syntastic_check_on_wq = 0
 
 " nerdtree
 "autocmd vimenter * NERDTree
-map <C-t> :NERDTreeToggle<CR>
+map <F6> :NERDTreeToggle<CR>
 
 " tagbar
 "autocmd vimenter * Tagbar
 nmap <F8> :TagbarToggle<CR>
+
+" powerline
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+
+" gundo
+nnoremap <F5> :GundoToggle<CR>
+
+" CommandT
+nnoremap <C-t> :CommandT<CR>
+nnoremap <C-b> :CommandTBuffer<CR>
 
 " custom
 set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
 set number
 set mouse=a
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o " disable autocommenting
+:set path=.,,**,/usr/include
+set hidden
