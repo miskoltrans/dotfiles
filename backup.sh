@@ -15,6 +15,7 @@ cp -r ~/bin $DIR
 mkdir -p $DIR/.config
 cp -r ~/.config/htop $DIR/.config
 cp -r ~/.config/gtk-3.0 $DIR/.config
+cp -r ~/.config/fontconfig $DIR/.config
 
 # dhex, hex editor
 cp ~/.dhexrc $DIR
