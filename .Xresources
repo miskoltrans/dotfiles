@@ -14,8 +14,9 @@ URxvt.loginShell:true
 !URxvt.visualBell: True
 !!! font options
 !URxvt.font: -*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*
-URxvt.font: -*-terminus-medium-*-*-*-*-140-*-*-*-*-iso8859-1
-!
+!URxvt.font: -*-terminus-medium-*-*-*-*-140-*-*-*-*-iso8859-!
+!fallback font
+URxvt.font: xft:Terminess\ Powerline:pixelsize=18
 !URxvt.boldFont: -*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*
 !URxvt.italicFont: -*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*
 !URxvt.boldItalicFont: -*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*

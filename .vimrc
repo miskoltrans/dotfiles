@@ -47,6 +47,9 @@ nmap <F8> :TagbarToggle<CR>
 
 " powerline
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+set laststatus=2 " Always display the statusline in all windows
+set showtabline=2 " Always display the tabline, even if there is only one tab
+set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
 
 " gundo
 nnoremap <F5> :GundoToggle<CR>
@@ -54,6 +57,7 @@ nnoremap <F5> :GundoToggle<CR>
 " CommandT
 nnoremap <C-t> :CommandT<CR>
 nnoremap <C-b> :CommandTBuffer<CR>
+
 
 " custom
 set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
