@@ -19,7 +19,7 @@ colorscheme solarized
 
 set nocompatible 
 
-"adsf pathogen
+" pathogen
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
@@ -58,11 +58,10 @@ nnoremap <F5> :GundoToggle<CR>
 nnoremap <C-t> :CommandT<CR>
 nnoremap <C-b> :CommandTBuffer<CR>
 
-
 " custom
 set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
 set number
 set mouse=a
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o " disable autocommenting
-:set path=.,,**,/usr/include
+set path=.,,**,/usr/include
 set hidden
