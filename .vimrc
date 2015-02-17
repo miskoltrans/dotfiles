@@ -45,8 +45,9 @@ map <F6> :NERDTreeToggle<CR>
 "autocmd vimenter * Tagbar
 nmap <F8> :TagbarToggle<CR>
 
-" powerline
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+" airline
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
 set laststatus=2 " Always display the statusline in all windows
 set showtabline=2 " Always display the tabline, even if there is only one tab
 set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
@@ -61,7 +62,8 @@ nnoremap <C-b> :CommandTBuffer<CR>
 " custom
 set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
 set number
-set mouse=a
+set mouse=a " Accept mouse input
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o " disable autocommenting
 set path=.,,**,/usr/include
 set hidden
+set timeoutlen=100 ttimeoutlen=0
