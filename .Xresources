@@ -16,7 +16,7 @@ URxvt.loginShell:true
 !URxvt.font: -*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*
 !URxvt.font: -*-terminus-medium-*-*-*-*-140-*-*-*-*-iso8859-!
 !fallback font
-URxvt.font: xft:Terminess\ Powerline:pixelsize=18
+URxvt.font: xft:Terminess\ Powerline:pixelsize=16
 !URxvt.boldFont: -*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*
 !URxvt.italicFont: -*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*
 !URxvt.boldItalicFont: -*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*
